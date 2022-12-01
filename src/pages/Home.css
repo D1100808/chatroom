@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 10px;
+    background-color: #15172b;
+    height: 500px;
+    padding: 20px;
+    width: 400px;
+    margin-top: 10px;
+    color: rgb(68, 56, 56);
+    display: grid;
+    text-align: center;
+    grid-template-rows: auto 1fr;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.userinfo{
+    background-color: aliceblue;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.content{
+    background-color: aliceblue;
+    height: 350px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.messages textarea{
+    background-color: aliceblue;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 325px;
+    resize: none;
+    overflow: hidden;
+}
+
+textarea:focus{
+    background-color: lightblue;
+}
+
+span{
+    cursor: pointer;
+}
